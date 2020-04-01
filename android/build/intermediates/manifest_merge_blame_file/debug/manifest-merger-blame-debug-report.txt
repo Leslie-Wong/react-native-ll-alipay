@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.alipay"
+5    android:versionCode="1"
+6    android:versionName="0.2.3" >
+7
+8    <uses-sdk
+8-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:6:5-45
+9        android:minSdkVersion="16"
+9-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:6:5-45
+10        android:targetSdkVersion="22"
+10-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:6:5-45
+11        tools:ignore="OldTargetApi" />
+11-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:6:15-42
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:8:5-67
+13-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:9:5-79
+14-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:10:5-76
+15-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:11:5-75
+16-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:11:22-72
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:12:5-81
+17-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:12:22-78
+18
+19    <supports-screens
+19-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:14:5-19:43
+20        android:anyDensity="true"
+20-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:15:13-38
+21        android:largeScreens="true"
+21-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:16:13-40
+22        android:normalScreens="true"
+22-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:17:13-41
+23        android:resizeable="true"
+23-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:18:13-38
+24        android:smallScreens="true" />
+24-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:19:13-40
+25
+26    <application android:allowBackup="true" >
+26-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:20:5-29:19
+26-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:21:13-39
+27        <activity
+27-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:22:9-28:20
+28            android:name="com.alipay.sdk.app.H5PayActivity"
+28-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:23:17-64
+29            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+29-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:24:17-89
+30            android:exported="false"
+30-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:25:17-41
+31            android:screenOrientation="behind"
+31-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:26:17-51
+32            android:windowSoftInputMode="adjustResize|stateHidden" >
+32-->/Users/leslie/Documents/APPS/efunsim/app/libs/rn-alipay/android/src/main/AndroidManifest.xml:27:17-71
+33        </activity>
+34    </application>
+35
+36</manifest>

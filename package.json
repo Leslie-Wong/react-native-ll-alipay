@@ -1,0 +1,25 @@
+{
+  "name": "react-native-ll-alipay",
+  "description": "react native alipay",
+  "author": "LesLie.W",
+  "contributors": [
+    {
+      "name": "LesLie.W",
+      "email": "leslie.wmy@gmail.com"
+    }
+  ],
+  "keywords": [
+    "alipay",
+    "react-native-alipay",
+    "pay",
+    "taobao",
+    "alibaba",
+    "支付宝",
+    "淘宝",
+    "支付"
+  ],
+  "license": "MIT",
+  "main": "react-native-ll-alipay.js",
+  "nativePackage": true,
+  "version": "0.0.1"
+}
